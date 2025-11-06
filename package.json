@@ -1,0 +1,17 @@
+{
+  "name": "anime-super-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@vitalets/google-translate-api": "^9.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.30.1"
+  }
+}

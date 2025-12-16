@@ -6,16 +6,16 @@ compatibility_date = "2024-03-20"
 # تعریف فضاهای ذخیره‌سازی KV
 kv_namespaces = [
   # KV برای دستیار انیمه (کلید API، تاریخچه چت)
-  { binding = "USER_KEYS", id = "9eb3a04fea214473abe0bd411e16ff75" },
+  { binding = "USER_KEYS", id = "مقدار خود را قرار دهید" },
   
   # KV برای ربات اعلان (اطلاعات کاربر و لیست انیمه‌ها)
-  { binding = "NOTIFIER_KV", id = "0f774719c146491c88cdb5206a592523" },
+  { binding = "NOTIFIER_KV", id = "مقدار خود را قرار دهید" },
 
   # KV برای ذخیره خلاصه داستان‌های ترجمه شده
-  { binding = "SYNOPSIS_CACHE", id = "00ec6df49a634a44b2df68afab45f541" },
+  { binding = "SYNOPSIS_CACHE", id = "" },
   
   # KV برای کش کردن نتایج جستجوی زنده (Inline)
-  { binding = "INLINE_CACHE", id = "86e3af9f5f0d489ea08f76b8cdf39041" }
+  { binding = "INLINE_CACHE", id = "مقدار خود را قرار دهید" }
 ]
 
 # فعال کردن Durable Objects (نگهبان‌های اعلان)
